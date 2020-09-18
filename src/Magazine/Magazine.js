@@ -4,7 +4,7 @@ class Magazine from Component
 {
   render()
   {
-    return();
+    return(<div>Magazine</div>);
   }
 }
 export default Magazine;
