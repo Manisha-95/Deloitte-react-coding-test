@@ -17,7 +17,7 @@ class App extends React.Component{
 
     render(){
         return(
-            <div>
+            <div class="container">
                 <div className="row">
                     <div className="col-md-12">
                         <Router>
@@ -29,18 +29,14 @@ class App extends React.Component{
                                     <Nav.Link href="/">Home</Nav.Link>
                                     <Nav.Link href="/Shop">Shop</Nav.Link>
                                     <Nav.Link href="/Magazine">Magazine</Nav.Link>
-                                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                        <NavDropdown.Divider />
-                                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                                    </NavDropdown>
+                                   
                                     </Nav>
-                                    <Form inline>
-                                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                                    <Button variant="outline-success">Search</Button>
-                                    </Form>
+                                <form class="form-inline my-1">
+                                  <div class="md-form form-sm my-0">
+                            <input class="form-control form-control-sm mr-sm-2 mb-0" type="text" placeholder="Search"
+                              aria-label="Search" />
+                          </div>              
+                        </form>
                                 </Navbar.Collapse>
                             </Navbar>
                             <br />
@@ -59,6 +55,7 @@ class App extends React.Component{
                     </div>
                 </div>
             </div>
+          
         )  
     }
 }

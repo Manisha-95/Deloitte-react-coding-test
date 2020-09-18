@@ -4,9 +4,7 @@ class Magazine extends Component
 {
   render()
   {
-    return
-    (
-      <div>Magazine</div>
+    return(<div>Magazine</div>
       );
   }
 }
