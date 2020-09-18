@@ -11,7 +11,7 @@ import {
   import Shop from './Shop/Shop';
   import Magazine from './Magazine/Magazine';
 
-class BootstrapNavbar extends React.Component{
+class App extends React.Component{
 
     render(){
         return(
@@ -61,4 +61,4 @@ class BootstrapNavbar extends React.Component{
     }
 }
 
-export default BootstrapNavbar;
+export default App;
