@@ -1,10 +1,11 @@
-import react,{Component} from 'react';
+import React,{Component} from 'react';
 
-class Shop from Component
+class Shop extends Component
 {
   render()
   {
-  return(<div>Shop</div>);
+  return(
+    <div>Shop</div>);
   };
 }
 

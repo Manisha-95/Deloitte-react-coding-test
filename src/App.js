@@ -10,6 +10,8 @@ import {
   import Home from './Home/Home';
   import Shop from './Shop/Shop';
   import Magazine from './Magazine/Magazine';
+  import 'bootstrap/dist/css/bootstrap.min.css';
+  import 'bootstrap/dist/js/bootstrap.min.js';
 
 class App extends React.Component{
 
