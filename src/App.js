@@ -31,12 +31,11 @@ class App extends React.Component{
                                     <Nav.Link href="/Magazine">Magazine</Nav.Link>
                                    
                                     </Nav>
-                                <form class="form-inline my-1">
-                                  <div class="md-form form-sm my-0">
-                            <input class="form-control form-control-sm mr-sm-2 mb-0" type="text" placeholder="Search"
-                              aria-label="Search" />
-                          </div>              
-                        </form>
+                                <form class="form-inline">
+      <div class="md-form my-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
+      </div>
+    </form>
                                 </Navbar.Collapse>
                             </Navbar>
                             <br />
