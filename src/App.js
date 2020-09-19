@@ -13,6 +13,7 @@ import {
   import 'bootstrap/dist/css/bootstrap.min.css';
   import 'bootstrap/dist/js/bootstrap.min.js';
   import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
+  import "./style.css"
 
 class App extends React.Component{
 
