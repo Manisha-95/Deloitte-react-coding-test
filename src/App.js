@@ -37,7 +37,7 @@ class App extends React.Component{
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
       </div>
     </form>
-     <div className="cart"><ShoppingCartOutlinedIcon style={{fontSize:"20px"}}/></div>
+     <div class="cart"><ShoppingCartOutlinedIcon style={{fontSize:"20px"}}/></div>
     <div>LOGIN</div>
                                 </Navbar.Collapse>
                             </Navbar>
