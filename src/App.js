@@ -12,6 +12,7 @@ import {
   import Magazine from './Magazine/Magazine';
   import 'bootstrap/dist/css/bootstrap.min.css';
   import 'bootstrap/dist/js/bootstrap.min.js';
+  import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 
 class App extends React.Component{
 
@@ -29,7 +30,7 @@ class App extends React.Component{
                                     <Nav.Link href="/">Home</Nav.Link>
                                     <Nav.Link href="/Shop">Shop</Nav.Link>
                                     <Nav.Link href="/Magazine">Magazine</Nav.Link>
-                                   
+                                   <ShoppingCartOutlinedIcon style={{fontSize:"20px"}}/>
                                     </Nav>
                                 <form class="form-inline">
       <div class="md-form my-0">
